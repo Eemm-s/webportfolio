@@ -4,15 +4,17 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Heebo', sans-serif;
+	font-family: 'Heebo', 'Josefin Sans', 'PT Sans Narrow';
 	display: grid;
 	align-items: center;
 }
 .navbar {
-	background-image: linear-gradient(to right, #A03E99, #DF57BC);
+	background-image: linear-gradient(to right, #CEA0AE, #D5B0AC);
 }
-.navbar-brand {
-	color: white;
+.logo {
+	width: 100px;
+	cursor: pointer;
+	height: auto;
 }
 
 .nav-item {
@@ -20,29 +22,34 @@ body {
 }
 
 #banner {
-	background-image: linear-gradient(to right, #A03E99, #DF57BC);
+	background-image: linear-gradient(to right, #CEA0AE, #D5B0AC);
 	color: white;
-	text-decoration: none;
+	text-decoration: none;;
 }
 #gallery {
-	background-image: linear-gradient(to right, #A03E99, #DF57BC);
+	margin-top: 10;
+	background-image: linear-gradient(to right, #CEA0AE, #D5B0AC);
 	color: white;
+	margin-bottom: 10;
 
 }
 .contact-me {
 	width: 80%;
 	height: auto;
 	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
 	padding: 10px;
 	border-radius: 10px;
+
 }
 
 .contact-map {
 	width: 100%;
 	height: auto;
 	flex; 50%
+}
+.contact-map iframe {
+	width: 100%;
+	height: 100%;
 }
 .contact-form {
 	width: 100%;
@@ -56,7 +63,7 @@ body {
 	width: 100%;
 	height: 40px;
 	border:  1px solid;
-	border-radius: 50px;
+	border-radius: 10px;
 	outline: none;
 	margin-bottom: 15px;
 }
@@ -64,7 +71,21 @@ body {
 	width: 100%;
 	height: 130px;
 	border:  1px solid;
-	border-radius: 50px;
+	border-radius: 10px;
 	outline: none;
 	margin-bottom: 15px;
+}
+.submit {
+	width: 100px;
+	height: 30px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, #A03E99, #DF57BC);
+	font-family: 'Heebo', 'Josefin Sans', 'PT Sans Narrow';
+}
+.footer {
+	height: 50px;
+	width: auto;
+	background-image: linear-gradient(to right, #A03E99, #DF57BC);
 }
