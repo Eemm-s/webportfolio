@@ -12,7 +12,7 @@ body {
 	background-image: linear-gradient(to right, #CEA0AE, #D5B0AC);
 }
 .logo {
-	width: 100px;
+	width: 50px;
 	cursor: pointer;
 	height: auto;
 }
@@ -20,11 +20,18 @@ body {
 .nav-item {
 	color: white;
 }
+#nav-bar:hover {
+	background-color: #3e8e41;
+	color: white;
+}
 
 #banner {
 	background-image: linear-gradient(to right, #CEA0AE, #D5B0AC);
 	color: white;
 	text-decoration: none;;
+}
+#banner1 {
+	padding-top: 10%;
 }
 #gallery {
 	margin-top: 10;
